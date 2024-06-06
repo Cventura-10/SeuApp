@@ -1,0 +1,31 @@
+.invoice-list {
+  margin-top: 20px;
+}
+
+.invoice-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-list th,
+.invoice-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.invoice-list th {
+  background-color: #f2f2f2;
+}
+
+.invoice-list .status {
+  font-weight: bold;
+}
+
+.invoice-list .status.paid {
+  color: #4caf50;
+}
+
+.invoice-list .status.unpaid {
+  color: #ff9800;
+}

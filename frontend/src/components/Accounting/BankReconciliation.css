@@ -1,0 +1,36 @@
+.bank-reconciliation {
+  padding: 20px;
+}
+
+.bank-reconciliation h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bank-reconciliation .transactions,
+.bank-reconciliation .entries {
+  margin-bottom: 20px;
+}
+
+.bank-reconciliation h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.bank-reconciliation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bank-reconciliation li {
+  margin-bottom: 10px;
+}
+
+.bank-reconciliation button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

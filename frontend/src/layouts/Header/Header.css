@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #003366;
+  }
+  
+  .header .logo {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .header .logo h1 {
+    margin: 0 0 0 10px;
+  }
+  
+  .header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header nav ul li {
+    position: relative;
+    margin-left: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #003366;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+  }
+  
+  .dropdown-menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #6699CC;
+  }
+  
+  .toggle-sidebar {
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  /* Add any additional styles for the Header here */
+  

@@ -1,0 +1,24 @@
+.sales-list {
+    margin-top: 20px;
+  }
+  
+  .sales-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .sales-list th,
+  .sales-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .sales-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .sales-list .amount {
+    font-weight: bold;
+  }
+  

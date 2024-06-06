@@ -1,0 +1,21 @@
+.product-list {
+  margin-bottom: 20px;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.product-item h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.product-item p {
+  margin-bottom: 5px;
+  color: #666;
+}

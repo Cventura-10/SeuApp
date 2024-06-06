@@ -1,0 +1,23 @@
+.financial-reports {
+  margin-top: 20px;
+}
+
+.financial-reports .report {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+.financial-reports .report h3 {
+  margin-top: 0;
+}
+
+.financial-reports .report p {
+  margin-bottom: 10px;
+}
+
+.financial-reports .report .amount {
+  font-size: 24px;
+  font-weight: bold;
+}

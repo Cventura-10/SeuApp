@@ -1,0 +1,44 @@
+.expense-tracking {
+  padding: 20px;
+}
+
+.expense-tracking h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.expense-tracking table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.expense-tracking th,
+.expense-tracking td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.expense-tracking th {
+  background-color: #f2f2f2;
+}
+
+.expense-tracking form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.expense-tracking input,
+.expense-tracking button {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.expense-tracking button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

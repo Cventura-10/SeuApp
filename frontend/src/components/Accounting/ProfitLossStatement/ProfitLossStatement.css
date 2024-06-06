@@ -1,0 +1,27 @@
+.profit-loss-statement {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profit-loss-statement h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .profit-loss-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .profit-loss-item p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .profit-loss-item p:last-child {
+    font-weight: bold;
+  }
+  

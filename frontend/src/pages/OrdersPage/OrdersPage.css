@@ -1,0 +1,28 @@
+.orders-page {
+  padding: 20px;
+}
+
+.orders-page h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.orders-page .order-list {
+  margin-top: 20px;
+}
+
+.orders-page .order-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-page .order-list th,
+.orders-page .order-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.orders-page .order-list th {
+  background-color: #f2f2f2;
+}

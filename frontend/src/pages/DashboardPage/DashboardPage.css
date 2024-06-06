@@ -1,0 +1,44 @@
+.dashboard-page {
+  padding: 20px;
+}
+
+.dashboard-section {
+  margin-bottom: 20px;
+}
+
+.dashboard-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-list li {
+  margin-bottom: 10px;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.error {
+  background-color: #ffebeb;
+  color: #ff0000;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.sidebar {
+  background-color: #0066CC;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar nav ul li a:hover {
+  background-color: #CC0000;
+}
+
+.sidebar nav ul li a .icon {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar nav ul li a span {
+  font-size: 16px;
+  font-weight: 500;
+}
