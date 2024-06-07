@@ -1,0 +1,27 @@
+#!/bin/bash
+
+LOG_DIR="/Users/carlosventura/Documents/GitHub/SeuApp/logs"
+ARCHIVE_DIR="${LOG_DIR}/archive"
+
+echo "LOG_DIR is set to ${LOG_DIR}"
+echo "ARCHIVE_DIR is set to ${ARCHIVE_DIR}"
+
+mkdir -p "${ARCHIVE_DIR}"
+
+find "${LOG_DIR}" -name '*.log' -mtime +7 -print0 | while read -d $'\0' logfile; do
+    echo "Processing ${logfile}."
+    
+    if [[ -z "${logfile}" ]]; then
+        echo "Warning: No logfile to process. Continuing to next file..."
+        continue
+    else
+        echo "Found logfile to process: ${logfile}"
+    fi
+    
+    echo "Moving ${logfile} to archive."
+    mv "${logfile}" "${ARCHIVE_DIR}/" && echo "File moved successfully."
+    
+    archive_file="${ARCHIVE_DIR}/$(basename "${logfile}")"
+    echo "Compressing ${archive_file}."
+    gzip "${archive_file}" && echo "${archive_file} compressed successfully."
+done
